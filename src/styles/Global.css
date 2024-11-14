@@ -1,0 +1,25 @@
+/* src/styles/Global.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f2e0; /* Soft green background */
+    color: #2f4f2f; /* Dark green for text */
+    margin: 0;
+  }
+  
+  h1, h2, p {
+    margin: 0;
+  }
+  
+  button {
+    background-color: #4CAF50; /* Button green color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

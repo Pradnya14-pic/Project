@@ -1,0 +1,29 @@
+/* Navbar Styling - Original Green Color */
+.navbar {
+    background-color: #4CAF50; /* Original green color */
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-around; /* Equally space the items */
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    z-index: 10;
+  }
+  
+  .navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0; /* Remove any extra margin */
+    border-radius: 5px;
+    font-weight: bold;
+    flex: 1; /* Ensures items take equal space */
+    text-align: center; /* Center the text */
+  }
+  
+  .navbar a:hover {
+    background-color: #388E3C; /* Darker green for hover effect */
+  }
+  

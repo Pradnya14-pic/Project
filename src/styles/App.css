@@ -1,0 +1,63 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f7;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Navbar Styling - Original Green */
+.navbar {
+  background-color: #4CAF50; /* Original green */
+  padding: 15px;
+  display: flex;
+  justify-content: space-around; /* Evenly spaced items */
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  z-index: 10;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  flex: 1; /* Even space */
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #388E3C; /* Darker green */
+}
+
+/* Main Content Styling */
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  background-color: #e8f5e9;
+  margin-top: 70px; /* Push down for navbar */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+h1, p {
+  color: #2e7d32;
+}
